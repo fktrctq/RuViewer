@@ -1,0 +1,72 @@
+object FrmMyProgress: TFrmMyProgress
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'FrmMyProgress'
+  ClientHeight = 51
+  ClientWidth = 341
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  Position = poOwnerFormCenter
+  OnCreate = FormCreate
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 341
+    Height = 49
+    Align = alTop
+    TabOrder = 0
+    object Button1: TButton
+      Left = 247
+      Top = 12
+      Width = 75
+      Height = 25
+      Caption = #1054#1090#1084#1077#1085#1072
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+    object ProgressBar1: TProgressBar
+      Left = 8
+      Top = 12
+      Width = 225
+      Height = 25
+      Step = 1
+      TabOrder = 1
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 49
+    Width = 341
+    Height = 2
+    Align = alClient
+    Caption = 'Panel2'
+    TabOrder = 1
+    ExplicitHeight = 84
+    object MemoLog: TMemo
+      Left = 1
+      Top = 1
+      Width = 339
+      Height = 0
+      Align = alClient
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -10
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      ScrollBars = ssBoth
+      TabOrder = 0
+      ExplicitHeight = 82
+    end
+  end
+end
