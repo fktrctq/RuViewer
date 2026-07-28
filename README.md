@@ -1,6 +1,7 @@
-RuViewer программа удаленного управления компьютером в локальной сети и сети интернет.
+# RuViewer программа удаленного управления компьютером в локальной сети и сети интернет.
 
-RuViewer — клиентская часть.
+## RuViewer — клиентская часть.
+
 Поддержка операционных систем семейства Windows 7-11 (x32/x64); Windows Server 2008R2-2022 (x32/x64).
 
 Основные характеристики программы:
@@ -37,7 +38,8 @@ RuViewer — клиентская часть.
 
 — работа через NAT.
 
-RVServer — серверная части, обслуживает подключения клиентской части (RuViewer). Включает графическую консоль управления службой.
+## RVServer — серверная часть.
+Обслуживает подключения клиентской части (RuViewer). Включает графическую консоль управления службой.
 Поддержка операционных систем семейства Windows Server 2008R2-2022/x64.
 
 Основные характеристики программы:
@@ -58,6 +60,7 @@ RVServer — серверная части, обслуживает подклю�
 
 — подключение клиентов к серверу через NAT.
 
+## Стек технологий
 
 IDE RAD Studio 11. 
 
@@ -66,3 +69,20 @@ IDE RAD Studio 11.
 HGM components for Delphi - https://github.com/HemulGM/Components
 
 TurboPack LockBox3 - https://github.com/TurboPack/LockBox3
+
+## Видео
+
+### Установка клиентской и серверной части.
+[![Установка клиентской и серверной части](https://github.com/user-attachments/assets/3c337501-a709-40b0-8bb6-9dc57c7d3f3c)](https://runtime.video.cloud.yandex.net/player/video/vplv5edfvgfi5ev2k7ib?autoplay=0&mute=0)
+
+### Управление
+[![Управление](https://github.com/user-attachments/assets/790869f7-18ed-4b35-b1da-b292a19901e2)](https://runtime.video.cloud.yandex.net/player/video/vplvyho3bswld5zqeyjz?autoplay=0&mute=0)
+
+### Уровни привилегий запуска клиента RuViewer
+[![Уровни привилегий запуска клиента RuViewer](https://github.com/user-attachments/assets/b3cfcb70-ab83-4dc7-8a83-5afee0abc1f0)](https://runtime.video.cloud.yandex.net/player/video/vplvguhlhl6tr5szzoms?autoplay=0&mute=0)
+
+### Настройка кластера серверов.
+[![Настройка кластера серверов](https://github.com/user-attachments/assets/5146762c-f38b-4d0b-b161-28d956fb82ca)](https://runtime.video.cloud.yandex.net/player/video/vplvmia4nnw4mmkrnhoj?autoplay=0&mute=0)
+
+
+
